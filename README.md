@@ -138,14 +138,6 @@ The production environment uses containerized workers and explicit health/recove
 - automated unit and regression tests
 - background integration workers
 
-## Included in this public repository
-
-`examples/frontend/` contains representative, anonymized frontend/domain logic.
-
-`examples/integrations/` contains representative reliability and integration-health utilities.
-
-The complete customer deployment is intentionally not public.
-
 ## Related project
 
 The **Bacteria Run** gamification module originally lived inside the larger Frankie application. Its game engine and public-safe assets are published separately as the `bacteria-run` portfolio repository.
@@ -154,7 +146,10 @@ The **Bacteria Run** gamification module originally lived inside the larger Fran
 
 Frankie is shown here to demonstrate the scale of the delivered system, architecture decisions and production automation patterns without exposing customer data or proprietary production material.
 
+## Source access
+
+The complete implementation is kept in a private source archive. For serious commercial discussions, a live walkthrough, architecture review, or controlled private code review can be arranged.
+
 ## Usage and licensing
 
-This repository is source-available for portfolio evaluation. You may inspect the code and run an unmodified local copy for evaluation, but commercial use, redistribution, republishing and derivative distribution are not permitted without written permission. See [LICENSE.md](LICENSE.md).
-
+This repository is source-available for portfolio evaluation. You may inspect the code and run an unmodified local copy for evaluation, but commercial use, redistribution, republishing and derivative distribution are not permitted without written permission. See [PROPRIETARY-NOTICE.md](PROPRIETARY-NOTICE.md).
